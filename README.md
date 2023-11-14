@@ -4,11 +4,11 @@ In this course you'll learn everything you need to know about PHP for Web Develo
 
 PHP powers most of the Internet, and using it is much easier than many other programming languages. 
 
-PHP is completely free to use, and you'll be up and running building cool web apps in minutes. 
+PHP is completely free to use, and you'll be up and running and building cool web apps in minutes. 
 
-In this course I'll walk you through the PHP language itself.  You'll learn computer programming fundamentals like:
+In this course, I'll walk you through the PHP language itself.  You'll learn computer programming fundamentals like:
 
--Variables
+- Variables
 
 - Math Operators
 
