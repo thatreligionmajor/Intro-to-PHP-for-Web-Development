@@ -129,3 +129,106 @@ this is a multi-line comment
 ?>
 
 //While Loops
+<?php
+	/*
+	while (condition is true) {
+		do something;
+	}
+	*/
+	$counter = 0;
+	while($counter < 11) {
+		echo "The count is: $counter <br/>";
+		$counter++;
+	}
+	//will print the count from 0 to 10
+	$count = 0;
+	$names = array("John", "Steve", "Mary");
+	while ($count < count($names)) {
+		echo "Name: $names[$count] <br/>";
+		$count++;
+	}
+	//will print each item in the array
+?>
+
+//Do While Loops
+<?php
+	do {
+		echo "The count is: $counter <br/>";
+		$counter++;
+	} while ($counter < 11);
+?>
+
+//For Loops
+<?php
+	for ($counter = 0; $counter <= 10; $counter++) {
+		echo "The count is $counter <br/>";
+	}
+?>
+
+//For Each Loops
+<?php
+	$names = array("John", "Steve", "Mary");
+	foreach ($names as $placeholdervariable) {
+		echo "$placeholdervariable </br>";
+	}
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
+
+//
+<?php
+
+?>
