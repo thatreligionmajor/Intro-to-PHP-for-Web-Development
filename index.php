@@ -173,12 +173,23 @@ this is a multi-line comment
 	}
 ?>
 
-//
+//Functions
 <?php
-
+	function helloThere($first_name, $last_name) {
+		echo "Hello There, $first_name $last_name!";
+	}
+	helloThere("John", "Doe");
+?>
+<?php
+	function add($num_1, $num_2) {
+		return $num_1 + $num_2;
+	}
+	$answer = add(41, 4);
+	echo "The answer is: $answer.";
+	echo $answer * 2;
 ?>
 
-//
+//Random Function
 <?php
 
 ?>
