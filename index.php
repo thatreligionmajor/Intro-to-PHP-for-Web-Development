@@ -191,12 +191,17 @@ this is a multi-line comment
 
 //Random Function
 <?php
+	echo rand(0,100);
+	echo mt_rand(0,100);
 
+	$names = array("John", "Steve", "Mary");
+	$rando = mt_rand(0,$names[$count]);
+	echo $names[$rando];
 ?>
 
-//
+//Date Functions
 <?php
-
+	
 ?>
 
 //
