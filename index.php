@@ -11,7 +11,7 @@ webtemplate.php includes content for videos 24, 25;
 this is a multi-line comment 
 */
 
-//Console.log
+//Printing to the page
 <?php
     echo "Hello World!";
 ?>
