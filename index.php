@@ -1,3 +1,10 @@
+/*
+
+index.php is a reference for basic syntax and functions of PHP (1-23);
+webtemplate.php includes content for videos 24, 25;
+
+*/
+
 //this is a single line comment
 
 /*
@@ -189,7 +196,7 @@ this is a multi-line comment
 	echo $answer * 2;
 ?>
 
-//Random Function
+//Random Functions
 <?php
 	echo rand(0,100);
 	echo mt_rand(0,100);
@@ -201,27 +208,59 @@ this is a multi-line comment
 
 //Date Functions
 <?php
-	
+	echo date("Y");
+	echo date("y");
+	echo date("l jS \of F, Y");
+	$todays_day = date("l");
+	echo "Toady is $todays_day.";
+	$todays_year("Y");
+	echo "Copyright (c) $todays_year - All Rights Reserved";
 ?>
 
-//
+//String Manipulation Functions
+//String Replace
 <?php
+	$stuff = "Theresa is a great programmer";
+	//echo str_replace("OLD", "NEW", $stuff);
+	echo str_replace("programmer", "friend", $stuff);
 
+	$programmer = "programmer";
+	$friend = "friend";
+	echo str_replace($programmer, $friend, $stuff);
 ?>
 
-//
+//String Manipulation Functions
+//String Caps
 <?php
-
+	$stuff = "theresa barkasy";
+	echo strtoupper($stuff);
+	echo ucwords($stuff);
+	echo ucfirst($stuff);
+	$ucstuff = "THERESA bARkasy";
+	echo strtolower($ucstuff);
+	echo lcfirst($ucstuff);
 ?>
 
-//
+//String Manipulation Functions
+//String Length
 <?php
+	$stuff = "wow, that is some stuff right there";
+	echo strlen($stuff);
+	//spaces count as characters
 
+	echo str_shuffle($stuff);
+	//word scrambles, good for games
 ?>
 
-//
+//Include Function
+<?php 
+	include("vaariables.php");
+	//typically put at the top of the document, but for the purposes of the tutorial let's leave it here for now.
+?>
 <?php
-
+	//to include things in your website from other files
+	echo "Copyright (c) " . $company_name . " " . 
+	date("Y") . " - All Rights Reserved";
 ?>
 
 //
