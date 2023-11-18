@@ -1,3 +1,4 @@
+<?php 
 /*
 
 index.php is a reference for basic syntax and functions of PHP (1-23);
@@ -10,13 +11,14 @@ webtemplate.php includes content for videos 24, 25;
 /*
 this is a multi-line comment 
 */
+?>
 
-//Printing to the page
+<!-- Printing to the page -->
 <?php
     echo "Hello World!";
 ?>
 
-//Variables
+<!-- Variables -->
 <?php
     $first_name = "John";
     $favorite_number = 41;
@@ -24,29 +26,29 @@ this is a multi-line comment
     echo $first_name;
 ?>
 
-//Math Operators
-// + - * / % **
+<!-- Math Operators -->
 <?php 
+// + - * / % **
 	$num_1 = 41;
 	$num_2 = 42;
 	echo $num_1 + $num_2;
 ?>
 
-//Incrementing
+<!-- Incrementing -->
 <?php
 	echo ++$num_1; //to add after the first instance: $num_1++
 	echo "<br/>";
 	echo $num_1;
 ?>
 
-//String Concatenation
+<!-- String Concatenation -->
 <?php
 	$first_name = "John";
 	$last_name = "Doe";
 	echo $first_name . " " . $last_name;
 ?>
 
-//Comparision Operators
+<!-- Comparision Operators -->
 <?php
 	// == Equal To 
 	// != Not Equal To 
@@ -63,12 +65,12 @@ this is a multi-line comment
 	//with strings, PHP is case sensitive, i.e. "John" != "john"
 ?>
 
-//Escape Characters
+<!-- Escape Characters -->
 <?php
 	echo "And then she said, \"Actually, you are really beautiful.\""
 ?>
 
-//If Else Statements
+<!-- If Else Statements -->
 <?php
 	$first_name = "John";
 	/*
@@ -85,7 +87,7 @@ this is a multi-line comment
 	}
 ?>
 
-//Elseif Statements
+<!-- Elseif Statements -->
 <?php
 	$num_1 = 40;
 	$num_2 = 5;
@@ -99,7 +101,7 @@ this is a multi-line comment
 	}
 ?>
 
-//Numeric Arrays
+<!-- Numeric Arrays -->
 <?php
 	$last_names = array("Doe", "Smith", "Poppins");
 	$first_names = array("John", "Steve", $last_names);
@@ -107,7 +109,7 @@ this is a multi-line comment
 	//will print John Doe
 ?>
 
-//Associative Arrays
+<!-- Associative Arrays -->
 <?php
 	$fav_pizza = array(
 		"John"=>"Pepperoni",
@@ -118,7 +120,7 @@ this is a multi-line comment
 	//John is the key, John's value is "Pepperoni"
 ?>
 
-//Array Counts
+<!-- Array Counts -->
 <?php
 	$fav_pizza = array(
 		"John"=>"Pepperoni",
@@ -135,7 +137,7 @@ this is a multi-line comment
 	//will print the last item in the array
 ?>
 
-//While Loops
+<!-- While Loops -->
 <?php
 	/*
 	while (condition is true) {
@@ -196,17 +198,17 @@ this is a multi-line comment
 	echo $answer * 2;
 ?>
 
-//Random Functions
+<!-- Random Functions -->
 <?php
 	echo rand(0,100);
 	echo mt_rand(0,100);
 
 	$names = array("John", "Steve", "Mary");
-	$rando = mt_rand(0,$names[$count]);
+	$rando = mt_rand(0,2);
 	echo $names[$rando];
 ?>
 
-//Date Functions
+<!-- Date Functions -->
 <?php
 	echo date("Y");
 	echo date("y");
@@ -217,8 +219,8 @@ this is a multi-line comment
 	echo "Copyright (c) $todays_year - All Rights Reserved";
 ?>
 
-//String Manipulation Functions
-//String Replace
+<!-- String Manipulation Functions -->
+<!-- String Replace -->
 <?php
 	$stuff = "Theresa is a great programmer";
 	//echo str_replace("OLD", "NEW", $stuff);
@@ -229,8 +231,8 @@ this is a multi-line comment
 	echo str_replace($programmer, $friend, $stuff);
 ?>
 
-//String Manipulation Functions
-//String Caps
+<!-- String Manipulation Functions -->
+<!-- String Caps -->
 <?php
 	$stuff = "theresa barkasy";
 	echo strtoupper($stuff);
@@ -241,8 +243,8 @@ this is a multi-line comment
 	echo lcfirst($ucstuff);
 ?>
 
-//String Manipulation Functions
-//String Length
+<!-- String Manipulation Functions -->
+<!-- String Length -->
 <?php
 	$stuff = "wow, that is some stuff right there";
 	echo strlen($stuff);
@@ -252,7 +254,7 @@ this is a multi-line comment
 	//word scrambles, good for games
 ?>
 
-//Include Function
+<!-- Include Function -->
 <?php 
 	include("vaariables.php");
 	//typically put at the top of the document, but for the purposes of the tutorial let's leave it here for now.
@@ -263,27 +265,27 @@ this is a multi-line comment
 	date("Y") . " - All Rights Reserved";
 ?>
 
-//
+<!-- -->
 <?php
 
 ?>
 
-//
+<!-- -->
 <?php
 
 ?>
 
-//
+<!-- -->
 <?php
 
 ?>
 
-//
+<!-- -->
 <?php
 
 ?>
 
-//
+<!-- -->
 <?php
 
 ?>
