@@ -159,7 +159,7 @@ this is a multi-line comment
 	//will print each item in the array
 ?>
 
-//Do While Loops
+<!-- Do While Loops -->
 <?php
 	do {
 		echo "The count is: $counter <br/>";
@@ -167,14 +167,14 @@ this is a multi-line comment
 	} while ($counter < 11);
 ?>
 
-//For Loops
+<!-- For Loops -->
 <?php
 	for ($counter = 0; $counter <= 10; $counter++) {
 		echo "The count is $counter <br/>";
 	}
 ?>
 
-//For Each Loops
+<!-- For Each Loops -->
 <?php
 	$names = array("John", "Steve", "Mary");
 	foreach ($names as $placeholdervariable) {
@@ -182,7 +182,7 @@ this is a multi-line comment
 	}
 ?>
 
-//Functions
+<!-- Functions -->
 <?php
 	function helloThere($first_name, $last_name) {
 		echo "Hello There, $first_name $last_name!";
@@ -215,7 +215,7 @@ this is a multi-line comment
 	echo date("l jS \of F, Y");
 	$todays_day = date("l");
 	echo "Toady is $todays_day.";
-	$todays_year("Y");
+	$todays_year = date("Y");
 	echo "Copyright (c) $todays_year - All Rights Reserved";
 ?>
 
@@ -256,7 +256,7 @@ this is a multi-line comment
 
 <!-- Include Function -->
 <?php 
-	include("vaariables.php");
+	include("variables.php");
 	//typically put at the top of the document, but for the purposes of the tutorial let's leave it here for now.
 ?>
 <?php
