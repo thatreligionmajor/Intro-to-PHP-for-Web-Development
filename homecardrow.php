@@ -56,7 +56,7 @@
         class="card-img-top" alt="close up image of a man playing a banjo">
     <div class="card-body">
       <h5 class="card-title">Passion for Teaching</h5>
-          <p class="card-text">
+          <p class="card-text text-center">
             <?php
                 echo $your_name .
                 "'s passion for banjo is contagious. Expect an enthusiastic and supportive environment where your musical aspirations take center stage."

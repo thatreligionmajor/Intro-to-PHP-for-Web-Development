@@ -5,9 +5,9 @@
 <body>
   <div class="container">
     <center>
-      <div class="row">
+      <div class="bg-light mb-3">
         <?php 
-          echo "Strum into the heart of music with " . $your_name . ", your dedicated banjo guru. Whether you're a beginner itching to pick up the banjo for the first time or a seasoned player looking to enhance your skills, you've landed in the right spot.";
+        echo "Book now: " . $company_number;
         ?>
       </div>
       <?php
