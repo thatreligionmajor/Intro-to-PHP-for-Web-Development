@@ -11,7 +11,7 @@
         ?>
       </div>
       <?php
-        include("card.php");
+        include("homecardrow.php");
             ?>
           </center>
   </div>
