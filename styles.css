@@ -1,3 +1,12 @@
+body {
+    background: #AD9A8D;
+}
+.container {
+    background-color: #AD9A8D;
+}
+.jumbotron {
+    background-color: #69443C;
+}
 .card img {
     width: 100%;
     height: 20dvh;

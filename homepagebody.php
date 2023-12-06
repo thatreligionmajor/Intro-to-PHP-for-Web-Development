@@ -5,13 +5,10 @@
 <body>
   <div class="container">
     <center>
-      <div class="bg-light mb-3">
-        <?php 
-        echo "Book now: " . $company_number;
-        ?>
+      <img src="banjobobhomepage.png" alt="Banjo Bob over a beige background" />
       </div>
       <?php
-        include("homecardrow.php");
+        include("cardrow.php");
             ?>
           </center>
   </div>
