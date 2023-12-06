@@ -1,8 +1,9 @@
 # See my Site
 https://phpcoursebanjo-502bb3e6eda0.herokuapp.com/
 
-# Intro-to-PHP-for-Web-Development
-## Description
+#Made in Conjunction With
+## Intro-to-PHP-for-Web-Development
+### Description
 In this course you'll learn everything you need to know about PHP for Web Development.
 
 PHP powers most of the Internet, and using it is much easier than many other programming languages. 
@@ -33,6 +34,6 @@ I'll also show you how to host websites for free on the popular Heroku web hosti
 
 PHP is an incredibly useful skill to have, and learning has never been easier!  I'll see you inside!
 
-## Who this course is for:
+### Who this course is for:
 Anyone who wants to learn PHP to develop Web Apps
 https://www.udemy.com/course/intro-to-php-for-web-development/
