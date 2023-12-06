@@ -3,13 +3,12 @@
   include("variables.php");
   ?>
 <body>
-  <div class="container">
-    <center>
-      <img src="banjobobhomepage.png" alt="Banjo Bob over a beige background" />
-      </div>
+  <div>
+    <center class="homepagebody">
+      <img class="homeimage" src="banjobobhomepage.png" alt="Banjo Bob over a beige background" />
       <?php
         include("cardrow.php");
             ?>
-          </center>
+    </center>
   </div>
 </body>

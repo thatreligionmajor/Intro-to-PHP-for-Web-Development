@@ -1,11 +1,14 @@
-body {
-    background: #AD9A8D;
-}
-.container {
+html {
     background-color: #AD9A8D;
 }
 .jumbotron {
     background-color: #69443C;
+}
+.homepagebody {
+    background-color: #AD9A8D;
+}
+.homeimage {
+    width: 100dvw;
 }
 .card img {
     width: 100%;
