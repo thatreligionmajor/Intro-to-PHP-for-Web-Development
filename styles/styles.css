@@ -10,11 +10,3 @@ body {
 .homeimage {
     width: 100dvw;
 }
-.card img {
-    width: 100%;
-    height: 20dvh;
-    object-fit: cover; 
-}
-.card-body {
-    height: 22dvh;
-}

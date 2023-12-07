@@ -1,1 +1,1 @@
-import "C:\xampp\htdocs\Intro-to-PHP-for-Web-Development\styles\styles.css";
+<link href="styles.css" rel="stylesheet" type="text/css">
