@@ -14,7 +14,7 @@
   <body>
       <?php
         //to include things in your website from other files
-        include("variables.php");
+        include($_SERVER['DOCUMENT_ROOT'] . '/Intro-to-PHP-for-Web-Development/variables.php');
         include($_SERVER['DOCUMENT_ROOT'] . '/Intro-to-PHP-for-Web-Development/components/navbar.php');
         include($_SERVER['DOCUMENT_ROOT'] . '/Intro-to-PHP-for-Web-Development/components/jumbotron.php');
         

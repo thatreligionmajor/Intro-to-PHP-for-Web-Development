@@ -21,7 +21,7 @@
       <h1>lessons</h1>
       <?php
           include($_SERVER['DOCUMENT_ROOT'] . '/Intro-to-PHP-for-Web-Development/cardrow.php');
-          include($_SERVER['DOCUMENT_ROOT'] . '/Intro-to-PHP-for-Web-Development/footer.php');
+          include($_SERVER['DOCUMENT_ROOT'] . '/Intro-to-PHP-for-Web-Development/components/footer.php');
       ?>
     </center>
   </div>

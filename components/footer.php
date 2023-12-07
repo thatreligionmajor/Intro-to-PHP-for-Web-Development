@@ -9,8 +9,8 @@
     </ul>
     <p class="text-center text-muted">
     <?php
-        include("variables.php");
-      ?>
+      include($_SERVER['DOCUMENT_ROOT'] . '/Intro-to-PHP-for-Web-Development/variables.php');
+    ?>
     <?php
         //to include things in your website from other files
         echo "Copyright © " . $company_name . " " . 

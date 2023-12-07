@@ -1,3 +1,4 @@
+<link href="card.css" rel="stylesheet" type="text/css">
 <?php
   //to include things in your website from other files
   include("variables.php");
