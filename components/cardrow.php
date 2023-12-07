@@ -1,7 +1,8 @@
-<link href="card.css" rel="stylesheet" type="text/css">
+<link href="../styles/styles.css" rel="stylesheet" type="text/css">
+<!-- <link href="card.css" rel="stylesheet" type="text/css"> -->
 <?php
   //to include things in your website from other files
-  include("variables.php");
+  include("../variables.php");
   ?>
 <div class="row">
 <div class="col-3">

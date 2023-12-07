@@ -1,8 +1,12 @@
 html {
     background-color: #AD9A8D;
+    color: #69443C;
 }
 body {
     background: #AD9A8D !important;
+}
+h1 {
+    color: #69443C;
 }
 .homepagebody {
     background-color: #AD9A8D;
