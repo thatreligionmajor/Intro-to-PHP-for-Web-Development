@@ -14,19 +14,19 @@
 </ul>
 <ul class="navbar-nav me-2 mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Listen</a>
+          <a class="nav-link active" href="/intro-to-php-for-web-development/pages/listen.php">Listen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Lessons</a>
+          <a class="nav-link active" href="/intro-to-php-for-web-development/pages/lessons.php">Lessons</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
+          <a class="nav-link active" href="/intro-to-php-for-web-development/pages/about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Testimonials</a>
+          <a class="nav-link active" href="/intro-to-php-for-web-development/pages/testimonials.php">Testimonials</a>
         </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link active" href="/intro-to-php-for-web-development/pages/contact.php">Contact</a>
           </li>
         </li>
       </ul>
