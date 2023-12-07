@@ -1,3 +1,8 @@
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="jumbotron.css"
+/>
 <div class="auto">
   <div class="col jumbotron p-5 text-white rounded">
     <h1>Welcome to 
