@@ -1,4 +1,4 @@
-<link href="navbar.css" rel="stylesheet" type="text/css">
+<link href="../styles/navbar.css" rel="stylesheet" type="text/css">
 <nav class="navbar navbar-expand-lg navbar-custom">
   <div class="container-fluid">
     <a class="navbar-brand " href="/intro-to-php-for-web-development/">
