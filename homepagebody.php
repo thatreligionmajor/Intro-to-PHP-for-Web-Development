@@ -8,7 +8,7 @@
       <img class="homeimage" src="banjobobhomepage.png" alt="Banjo Bob over a beige background" />
       <?php
         include("cardrow.php");
-            ?>
+      ?>
     </center>
   </div>
 </body>
