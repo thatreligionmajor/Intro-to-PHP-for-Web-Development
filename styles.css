@@ -1,6 +1,9 @@
 html {
     background-color: #AD9A8D;
 }
+body {
+    background: #AD9A8D !important;
+}
 .jumbotron {
     background-color: #69443C;
 }
