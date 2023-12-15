@@ -1,5 +1,8 @@
 # See my Site
 https://phpcoursebanjo-502bb3e6eda0.herokuapp.com/
+<!-- local -->
+<!-- cd /c/xampp/htdocs/Intro-to-PHP-for-Web-Development -->
+<!-- http://localhost/intro-to-php-for-web-development/ -->
 
 # Made in Conjunction With
 ## Intro-to-PHP-for-Web-Development
