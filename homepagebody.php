@@ -3,9 +3,10 @@
   include("variables.php");
   ?>
 <body>
-  <div>
+  <div> 
     <center class="homepagebody">
       <img class="homeimage" src="banjobobhomepage.png" alt="Banjo Bob over a beige background" />
     </center>
-  </div>
+  </div> 
 </body>
+<!-- This is a comment -->
